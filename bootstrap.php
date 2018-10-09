@@ -5,13 +5,14 @@ use TightenCo\Jigsaw\Jigsaw;
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
 
-/**
- * You can run custom code at different stages of the build process by
- * listening to the 'beforeBuild', 'afterCollections', and 'afterBuild' events.
- *
- * For example:
- *
- * $events->beforeBuild(function (Jigsaw $jigsaw) {
- *     // Your code here
- * });
- */
+
+
+// $events->beforeBuild(function ($jigsaw) {
+//     $url = "http://api.openweathermap.org/data/2.5/weather?" . http_build_query([
+//         'q' => $jigsaw->getConfig('city'),
+//         'appid' => $jigsaw->getConfig('openweathermap_api_key'),
+//         'units' => 'imperial',
+//     ]);
+
+//     $jigsaw->setConfig('current_weather', json_decode(file_get_contents($url))->main);
+// });

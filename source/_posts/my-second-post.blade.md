@@ -5,6 +5,8 @@ title: My Second Post
 order: 2
 ---
 
+@include('_partials.post-header')
+
 This is my second post. I have learned a lot since my first post.
 
 * If you like markdown
