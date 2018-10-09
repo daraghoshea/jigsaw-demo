@@ -11,3 +11,5 @@ This is my second post. I have learned a lot since my first post.
 * This is a great way to write blog posts.
 * If you don't
 * It's not
+
+I **love** my new blog.
